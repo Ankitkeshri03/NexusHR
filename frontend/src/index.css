@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Geist Variable', ui-sans-serif, system-ui, sans-serif;
+  color: #0f172a;
+  background:
+    radial-gradient(circle at top, rgba(125, 211, 252, 0.16), transparent 30%),
+    linear-gradient(180deg, #f8fbff 0%, #f8fafc 100%);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: transparent;
+  color: #0f172a;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: rgba(14, 165, 233, 0.22);
+}
